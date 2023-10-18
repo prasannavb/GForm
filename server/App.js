@@ -38,7 +38,7 @@ app.post("/post", async  (req,res)=>{
     res.send({status:"Success"})
 })
  
-mongoose.connect("mongodb+srv://prasannavb04:VBP123@crud.8wb1x6i.mongodb.net/CRUD?retryWrites=true&w=majority")
+mongoose.connect("YOUR CONNECTION LINK")
 .then(()=> 
 {
     console.log("Connected to Mongodb")    
